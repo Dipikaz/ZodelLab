@@ -30,18 +30,8 @@ Integration: End-to-end LLM → Execution → Visualization validation
 Contract Testing: Ensures Plotly JSON schema compliance
 
 
-⚙️ Setup
-Backend:
-
-cd backend
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-
-Frontend:
-cd frontend
-npm install
-npm run dev
-
-
+📅 Roadmap
+Phase 1: Natural Language → Executable Simulation (Current)
+Phase 2: Multi-agent orchestration system
+Phase 3: Self-healing execution + error correction loop
+Phase 4: Scalable simulation engine for enterprise use cases
